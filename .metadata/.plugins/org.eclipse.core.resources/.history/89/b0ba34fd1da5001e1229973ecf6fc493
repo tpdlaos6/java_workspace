@@ -1,0 +1,18 @@
+import java.io.FileOutputStream;
+
+public class 파일입출력_테스트 {
+
+	public static void main(String[] args) throws Exception{
+		
+		// 실행하면 아래 디렉토리 주소 안에 out.txt가 만들어짐
+		FileOutputStream output = new FileOutputStream("c:/file/out.txt", true);
+		
+		// 실행하면 만들어진 txt 안에 아래 코드의 출력값이 작성됨
+		for(int i=1; i<11; i++) {
+            String data = i+" 번째 줄입니다.\r\n";
+            output.write(data.getBytes());
+		}
+		output.close();
+	}
+
+}

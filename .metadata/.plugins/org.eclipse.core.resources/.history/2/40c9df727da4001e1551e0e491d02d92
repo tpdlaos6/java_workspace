@@ -1,0 +1,6 @@
+package com.naver.service;
+
+public class Person3 {
+	public String name;
+
+}

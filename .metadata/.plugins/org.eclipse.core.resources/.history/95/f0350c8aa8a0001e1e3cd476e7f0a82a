@@ -1,0 +1,43 @@
+package addressbook_231222;
+
+import java.util.Scanner;
+
+public class Java04 {
+
+	public static void main(String[] args) {
+
+		
+		while(true){
+			Scanner s=new Scanner(System.in);{			
+				String name=s.next();
+				System.out.print("이름 : ");
+				if(s.next().equals("quit")){
+					break;
+				}
+				int kor=s.nextInt();
+				System.out.print("국어 : ");
+				if(s.next().equals("quit")){
+					break;
+				}
+				int eng=s.nextInt();
+				System.out.print("영어 : ");
+				if(s.next().equals("quit")){
+					break;
+				}
+				int math=s.nextInt();
+				System.out.print("수학 : ");
+				if(s.next().equals("quit")){
+					break;
+				}
+				System.out.println(name+"의 평균은 "+(kor+eng+math)/3+" 입니다");
+				if(s.next().equals("quit")){
+					break;
+				}
+			
+			}
+		}
+
+	}
+	}
+
+

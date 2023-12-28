@@ -1,0 +1,15 @@
+package com.naver.service;
+
+public class Person {
+	public String name; // field
+	//method
+	public void sleep() {
+		System.out.println("잠을 잡니다");
+	}
+	
+	//constructor (생성자)
+	Person(){} // 기본 생성자
+	Person(String name){
+		this.name=name; // name 초기화
+	}
+}

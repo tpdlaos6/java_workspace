@@ -1,0 +1,8 @@
+package Java06_231227;
+
+public class Mouse {
+	public String name;
+	public void move() {
+		System.out.println("부드러워요");
+	}
+}

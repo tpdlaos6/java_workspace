@@ -1,0 +1,25 @@
+import com.naver.service.Person;
+import com.naver.service.Person2;
+import com.naver.service.Student;
+
+public class JavaEssential {
+
+	public static void main(String[] args) {
+		Person p=new Person(); // instance 생성
+		p.name="홍길동";
+		p.sleep();
+		System.out.println(p.name);
+		
+		Person2 p2=new Person2();
+		p2.setName("이순신");
+		p2.sleep();
+		System.out.println(p2.getName());
+		
+		Student s=new Student();
+		s.name="왕건";
+		s.department="철학과";
+		s.sleep();
+		System.out.println(p2.sleep());
+	}	
+
+}

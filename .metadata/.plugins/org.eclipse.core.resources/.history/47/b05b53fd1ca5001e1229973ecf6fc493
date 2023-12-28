@@ -1,0 +1,12 @@
+import java.io.FileOutputStream;
+
+public class 파일입출력_테스트 {
+
+	public static void main(String[] args) throws Exception{
+			
+			FileOutputStream output = new FileOutputStream("c:/out.txt");
+
+
+	}
+
+}

@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.naver.service.Person;
+import com.naver.service.Person2;
+import com.naver.service.Student;
+import com.naver.service.Student2;
+
+public class JavaEssential {
+
+	public static void main(String[] args) {
+		Person p=new Person(); // instance 생성
+		p.name="홍길동";
+		p.sleep();
+		System.out.println(p.name);
+		
+		Person2 p2=new Person2();
+		p2.setName("이순신");
+		p2.sleep();
+		System.out.println(p2.getName());
+		
+		Student s=new Student();
+		s.name="왕건";
+		s.department="철학과";
+		s.sleep();
+		
+		Person p3=new Person("을지문덕"); // 인스턴스 생성하면서 name 초기화
+		System.out.println(p3.name);
+		
+		//인스턴스 생성하면서 name, department 초기화
+		Student s2=new Student("강감찬","컴퓨터공학");
+		System.out.println(s2.name);
+		System.out.println(s2.department);
+		
+		Student2 s3=new Student2();
+		s3.name="신사임당";
+		s3.department="전자공학과";
+		System.out.println(s3.name);
+		System.out.println(s3.department);
+		
+		
+		// ArrayList
+		ArrayList<Student> list=new ArrayList<Student>();
+		list.add(new Student());
+		list.add(new Student());
+		list.get(0).name="이율곡";
+		list.get(0).department="국문학과";
+		list.get(1).name="단군";
+		list.get(1).department="영문학과";
+		System.out.println(list.get(1));
+		
+		//HashMap
+		Map<String,Student2> map = new HashMap<>(); // upcasting
+		
+	}	
+
+}

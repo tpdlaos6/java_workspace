@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+public class JComponentEx extends JFrame {
+
+	public static void main(String[] args) {
+		public JComponentEx_스윙컴포넌트() {
+			this.setTitle("학사관리");
+			this.setDefaultCloseOperation(ABORT);
+		}
+	}
+
+}

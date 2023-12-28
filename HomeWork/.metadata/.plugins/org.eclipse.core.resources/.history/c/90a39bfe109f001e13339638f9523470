@@ -1,0 +1,55 @@
+	public class WheelMouse extends Mouse {
+		   boolean isSound;
+		   
+		   WheelMouse(){
+		      wire=true;
+		      mouseWheel=true;
+		      leftClick=true;
+		      rightClick=true;
+		      moveLaser=true;
+		      isSound=false;
+		   }
+
+		   void output(String name) {
+		      super.output(name);
+		      if(this.isSound==true) {
+		         System.out.println("무소음 마우스가 아닙니다.");
+		      }else {
+		         System.out.println("무소음 마우스입니다.");         
+		      }
+		   }
+		}
+
+
+
+		public class MagicMouse extends Mouse{
+		   boolean isSound;
+		   boolean sector;
+		   
+		   MagicMouse(){
+		      wire=false;
+		      mouseWheel=false;
+		      leftClick=false;
+		      rightClick=false;
+		      moveLaser=true;
+		      isSound=false;
+		      sector=false;
+		   }
+		   void output(String name) {
+		      super.output(name);
+		      if(isSound==true) {
+		         System.out.println("무소음 마우스가 아닙니다.");
+		      }else {
+		         System.out.println("무소음 마우스입니다.");         
+		      }
+		      if(sector==true) {
+		         System.out.println("버튼간 구분이 있습니다.");
+		      }else {
+		         System.out.println("버튼간 구분이 없습니다.");         
+		      }
+		   }
+		}
+
+
+
+}

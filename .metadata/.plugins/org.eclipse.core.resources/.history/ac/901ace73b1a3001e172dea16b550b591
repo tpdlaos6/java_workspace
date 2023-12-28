@@ -1,0 +1,11 @@
+
+public class FinalTest {
+	
+	//상수
+	static final double PI=3.14; // 변경 불가. 공유메모리
+	
+	public static void main(String[] args) {
+		System.out.println(FinalTest.PI);
+	}
+
+}

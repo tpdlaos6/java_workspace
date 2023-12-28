@@ -1,0 +1,40 @@
+
+public class Java01_231219 {
+
+	public static void main(String[] args) {
+
+		
+		for(int i=1;i<=5;i++) {
+			for(int k=1; k<=5-i; k++){
+				System.out.print(" ");
+			}
+			for(int j=1;j<=i*2-1;j++) {
+				System.out.print("*");
+			}
+			System.out.print("\n");
+		}
+		
+		
+		for(int dan=2;dan<=9;dan++) {
+			for (int number=1; number<=9; number++) {
+				System.out.println(dan+"*"+number+"="+dan*number);
+			}
+		}
+		
+	
+
+		 for (int i = 1; i <= 9; i++) {
+	            // 한 줄에 해당 단의 구구단 출력
+	            for (int j = 2; j <= 9; j++) {
+	                System.out.print(j+"*"+i+"="+i * j);
+
+	                // 3의 배수마다 줄바꿈
+	                if (j % 9 == 0) {
+	                    System.out.println("");  // 구구단 간 간격 조절
+	                }
+	            }
+//	            System.out.println();  // 각 행(세로)이 끝날 때마다 전체 줄바꿈
+	        }
+	    }
+	}
+

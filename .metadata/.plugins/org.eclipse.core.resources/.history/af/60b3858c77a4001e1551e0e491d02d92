@@ -1,0 +1,12 @@
+import com.naver.service.Person;
+
+public class JavaEssential {
+
+	public static void main(String[] args) {
+		Person p=new Person(); // instance 생성
+		p.name="홍길동";
+		p.sleep();
+		System.out.println(p.name);
+	}	
+
+}

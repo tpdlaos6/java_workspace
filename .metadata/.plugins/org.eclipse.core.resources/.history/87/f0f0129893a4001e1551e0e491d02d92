@@ -1,0 +1,19 @@
+import Java06_231227.Mouse;
+import Java06_231227.Mouse2;
+
+public class Java06_231227 {
+
+	public static void main(String[] args) {
+		Mouse m=new Mouse();
+		m.name="로지텍";
+		m.move();
+			System.out.println(m.name);
+
+		Mouse2 m2=new Mouse2();
+		m2.setName("아이리버");
+		m2.move();
+		System.out.println(m2.getName());
+
+	}
+
+}

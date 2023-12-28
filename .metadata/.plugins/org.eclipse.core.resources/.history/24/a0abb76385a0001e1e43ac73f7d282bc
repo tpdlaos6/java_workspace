@@ -1,0 +1,36 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class JDBCTest {
+
+	public static void main(String[] args) {
+		
+		Connection con=null;
+		Statement stmt=null;
+		ResultSet rs=null; // null은 reference 값이 없다는 의미
+		
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver"); // oracle driver 로드
+			// oracle 연결. 임포트 필수.
+			con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","sqld","1234");
+			// statement 객체 생성. 임포트 필수. 
+			stmt=con.createStatement();
+			// select문 실행. 임포트 필수
+			rs=stmt.executeQuery("select * from TB_INDUTY_CL");
+			// Fetch
+			while(rs.next()) {
+				System.out.println(rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+ rs.getString(4));
+			}
+		}catch(Exception e) {			
+			e.printStackTrace(); // 디버깅을 위해
+		}finally {
+			if(rs!=null) {
+				try {rs.close();} catch (SQLException e) {e.printStackTrace();}
+			}
+		}
+	}
+
+}

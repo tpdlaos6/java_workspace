@@ -1,0 +1,18 @@
+INDEX VERSION 1.134+C:\git_kdigital\java_workspace\.metadata\.plugins\org.eclipse.jdt.core
+190234774.index
+354432462.index
+4169613755.index
+2085744640.index
+3795150243.index
+3481200903.index
+3847791034.index
+1646724440.index
+48270525.index
+3261710211.index
+2503103797.index
+2455736620.index
+1865797976.index
+2067543065.index
+1978121259.index
+2380175872.index
+4214117602.index

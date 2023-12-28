@@ -1,0 +1,28 @@
+	public class MsArcMouse extends Mouse {
+	   boolean sector;
+	   boolean flexible;
+	   
+	   MsArcMouse(){
+	      wire=false;
+	      mouseWheel=false;
+	      leftClick=false;
+	      rightClick=false;
+	      moveLaser=true;
+	      flexible=true;
+	      sector=true;
+	   }
+	   void output(String name) {
+	      super.output(name);
+	      if(sector==true) {
+	         System.out.println("버튼간 구분이 있습니다.");
+	      }else {
+	         System.out.println("버튼간 구분이 없습니다.");         
+	      }
+	      if(flexible==true) {
+	         System.out.println("마우스 몸통이 휘어있습니다.");
+	      }else {
+	         System.out.println("마우스 몸통이 휘어있지 않습니다.");         
+	      }
+	   }
+	}
+

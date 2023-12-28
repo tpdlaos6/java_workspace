@@ -1,0 +1,9 @@
+package com.naver.service;
+
+public class Person {
+	public String name; // field
+	//method
+	public void sleep() {
+		System.out.println("잠을 잡니다");
+	}
+}

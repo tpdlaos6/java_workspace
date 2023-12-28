@@ -1,0 +1,52 @@
+
+public class Mouse {
+
+	public class Mouse {
+
+		   boolean wire;       //유선인지 무선인지
+		   boolean mouseWheel; //마우스휠 있는지 없는지
+		   boolean leftClick;  //왼쪽버튼 있는지 없는지
+		   boolean rightClick; //오른쪽버튼 있는지 없는지
+		   boolean moveLaser;   //바닥 센서가 레이저인지 아닌지.
+		   //마우스 초기값은 전부 true
+		   Mouse(){
+		      wire=true;
+		      mouseWheel=true;
+		      leftClick=true;
+		      rightClick=true;
+		      moveLaser=true;
+		   }
+		   //해당 정보 출력
+		   void output(String name) {
+		      System.out.println(name+"입니다.");
+		      if(this.wire ==true) {
+		         System.out.println("유선입니다.");
+		      }else {
+		         System.out.println("무선입니다.");
+		      }
+		      if(this.mouseWheel==true) {
+		         System.out.println("마우스 휠이 있습니다.");
+		      }else {
+		         System.out.println("마우스 휠이 없습니다.");
+		      }
+		      if(this.leftClick==true) {
+		         System.out.println("왼쪽 버튼이 있습니다.");
+		      }else{
+		         System.out.println("왼쪽 버튼이 없습니다.");         
+		      }
+		      if(this.rightClick==true) {
+		         System.out.println("오른쪽 버튼이 있습니다.");
+		      }else{
+		         System.out.println("오른쪽 버튼이 없습니다.");         
+		      }
+		      if(this.moveLaser==true) {
+		         System.out.println("바닥센서가 있습니다.");
+		      }else{
+		         System.out.println("바닥센서가 없습니다.");         
+		      }
+		   }//end out put
+		}
+
+	}
+
+}

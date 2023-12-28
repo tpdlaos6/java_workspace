@@ -1,0 +1,10 @@
+package Java05_231226;
+
+public class Java05_5 {
+
+	public static void main(String[] args) {
+	String a="홍길동,010-1111-2222,hkd@hkd.com";
+	System.out.println(a.split(","));
+
+	}
+}
