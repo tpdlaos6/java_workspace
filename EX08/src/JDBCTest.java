@@ -18,7 +18,7 @@ public class JDBCTest {
 			Class.forName("oracle.jdbc.driver.OracleDriver"); // oracle driver 로드
 			// oracle 연결. 임포트 필수.
 			con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","user1","1234");
-			// statement 객체 생성. 임포트 필수. 
+			// sql 문을 실행하기 위한, statement 객체 생성. 임포트 필수. 
 			stmt=con.createStatement();
 			
 			// auto commit이 기본값. 만약 수동커밋으로 전환하고 싶으면 아래 명령어

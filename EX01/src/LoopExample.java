@@ -13,12 +13,12 @@ public class LoopExample {
 		}
 //	}
 		
-		//while문
-//		short i=1;
-//		while(i<=number) {
-//			System.out.println("[식권] #"+i);
-//			i++;
-//		};
+//		while문
+		short i=1;
+		while(i<=number) {
+			System.out.println("[식권] #"+i);
+			i++;
+		};
 		
 		//do while 문 (잘 안씀)
 //		short i=1;

@@ -17,7 +17,7 @@ public class JavaEssential {
 		
 		Person2 p2=new Person2();
 		p2.setName("이순신");
-		p2.sleep();
+		p2.sleep();		
 		System.out.println(p2.getName());
 		
 		Student s=new Student();
