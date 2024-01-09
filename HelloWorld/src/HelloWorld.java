@@ -23,7 +23,7 @@ import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
 
-public class Student extends JPanel {
+public class HelloWorld extends JPanel {
 
    JLabel lblID =  null;
    JTextField tfID = null;
@@ -49,7 +49,7 @@ public class Student extends JPanel {
    ResultSet rs = null;   //null은 reference값이 없다는 의미.
    String sql = null;   
    
-   public Student() {
+   public HelloWorld() {
 
       setLayout(new FlowLayout());
       

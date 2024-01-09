@@ -18,7 +18,7 @@ public class RecursiveTest_재귀함수 {
 
 	public static void main(String[] args) {
 		System.out.println(fact(4));
-		System.out.println(Recu.a);
+		System.out.println(RecursiveTest_재귀함수.a);
 	}
 
 }

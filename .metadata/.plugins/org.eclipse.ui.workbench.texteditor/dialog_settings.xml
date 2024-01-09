@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="arr[j]"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="arr[j]"/>
+			<item value="RECU"/>
+			<item value="v"/>
+			<item value="min_"/>
+			<item value="min_index"/>
+			<item value="pre"/>
+			<item value="shape"/>
 			<item value="student"/>
 			<item value="rs"/>
 			<item value="action"/>
@@ -16,13 +23,6 @@
 			<item value="dialog"/>
 			<item value="server"/>
 			<item value="dequeue"/>
-			<item value="arrayStack"/>
-			<item value="receiver"/>
-			<item value="recei"/>
-			<item value="try"/>
-			<item value="th"/>
-			<item value="setup"/>
-			<item value="IOE"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -11,7 +11,7 @@ public class FinalTest {
 		FinalTest ft2=new FinalTest();
 		System.out.println(ft2.PI); // static PI는 하나만 만들어서 공유
 		
-		ft.PI=10000; // 변경이 안된다는 에러표시.
+//		ft.PI=10000; // 변경이 안된다는 에러표시.
 	}
 
 }
