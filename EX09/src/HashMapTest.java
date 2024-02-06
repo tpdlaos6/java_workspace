@@ -24,7 +24,9 @@ public class HashMapTest {
         HashMap<String, Book> map2=new HashMap<>();
         map2.put("java",new Book());
         map2.get("java").title="자바";
-        System.out.println(map2.get("java").title);
+        map2.get("java").price=10000;
+        System.out.println(map2.get("java").price);
+        
         
         
         HashSet<Integer> s1 = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5, 6));

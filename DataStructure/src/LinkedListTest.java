@@ -17,18 +17,18 @@ public class LinkedListTest {
 		tail.next=tmp; // 세번째 객체 참조값을 마지막(이전)의 next 에 저장
 		tail=tmp; // 마지막 객체 참조값을 방금 만든 객체의 참조값으로 변경
 		
-		for(int i=0;i<5;i++) {
-			tmp=new Shape();
-			tmp.shape=i+"번째 도형";
-			if(head==null) {
-				head=tmp;
-				tail=head;
-				continue;
-			}
-			tail.next=tmp;
-			tail=tmp;
-
-		}
+//		for(int i=0;i<5;i++) {
+//			tmp=new Shape();
+//			tmp.shape=i+"번째 도형";
+//			if(head==null) {
+//				head=tmp;
+//				tail=head;
+//				continue;
+//			}
+//			tail.next=tmp;
+//			tail=tmp;
+//
+//		}
 		
 		//출력
 		Shape p=head; 

@@ -8,8 +8,8 @@ public class ArrayListTest {
 		list.add("홍길동");
 		list.add("이순신");
 		
-//		System.out.println(list.get(0));
-//		System.out.println(list.get(1));
+		System.out.println(list.get(0));
+		System.out.println(list.get(1));
 		
 		
 		
