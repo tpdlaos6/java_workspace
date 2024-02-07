@@ -1,6 +1,6 @@
 package com.naver.TV;
 
-public class Remote {
+public class Main {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class Remote {
 			
 
 			
-			System.out.println("현재 채널"+ t2.cha);
+			System.out.println("현재 채널"+ t1.cha);
 			
 	}
 
