@@ -9,7 +9,7 @@ public class HashMapTest {
         map.put("people", "사람");
         map.put("baseball", "야구");
         
-        System.out.println(map.get("people")); // 키값을 지정해야, 밸류가 출력
+        System.out.println(map.get("baseball")); // 키값을 지정해야, 밸류가 출력
         System.out.println(map.get("java")); // 키 값이 없으면 null 이 뜸
         System.out.println(map.containsKey("people")); // 해당 키가 있으면 true, 없으면 false
 //        System.out.println(map.remove("people")); // 삭제

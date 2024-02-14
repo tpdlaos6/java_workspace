@@ -47,8 +47,10 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="class_prac.Student"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.awt.Shape"/>
     <fullyQualifiedTypeName name="DataStructure.LinkedListTest"/>
+    <fullyQualifiedTypeName name="Car"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="_ElectricCar"/>
 </qualifiedTypeNameHistroy>
